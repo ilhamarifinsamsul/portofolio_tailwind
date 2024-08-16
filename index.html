@@ -10,6 +10,11 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="output.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient {
+            background-image: linear-gradient(to bottom right, #413D3D, #867878);
+        }
+    </style>
     
 </head>
 <body>
@@ -38,7 +43,25 @@
             </div>
         </nav>
     </section>
-    <section class="w-screen mx-auto py-4 bg-gray-500 md:bg-gray-500 h-32 text-white">About me</section>
+    <section class="w-screen mx-auto py-4 gradient">
+        <div class="px-16 py-8 text-center text-white">
+            <h1 class="w-full text-5xl font-bold">About me</h1>
+            <div class="mb-4">
+                <div class="bg-white w-1/4 opacity-75 rounded h-1 mx-auto"></div>
+            </div>
+            <h4 class="text-2xl font-bold mb-2 text-gray-200 text-center font-mono">Hi I'm Ilham Samsul Arifin this is my portfolio, hope you guys like it</h4>
+            <div class="w-full">
+                <div class="px-4 py-4 ">
+                    <img src="img/ilham.jpeg" alt="" class="shadow-lg rounded-full max-w-full mx-auto text-center w-48">
+                </div>
+            </div>
+            <h5 class="text-lg mb-2 text-center text-gray-200 font-sans">
+                Fresh graduate S1 majoring in Information Systems, Faculty of Computer Science. I have interest in working in administration, IT staff, system analyst. Have basic knowledge of programming languages such as PHP Framework Codeigniter 4, Javascript, and have an understanding of Microsoft Office, HTML, CSS, and MySQL database.
+            </h5>
+            
+
+        </div>
+    </section>
     <section class="w-screen mx-auto py-4 bg-white h-32 text-gray-500">Skills</section>
     <section class="w-screen mx-auto py-4 bg-gray-500 md:bg-gray-500 h-32 text-white">Recent Work</section>
     <section class="w-screen mx-auto py-4 bg-white h-32 text-gray-500">Contact me</section>
